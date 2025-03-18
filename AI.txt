@@ -1,0 +1,3 @@
+sql = "SELECT * FROM users WHERE age >= %(age)s AND sex = %(sex)s" params = {"age": 40, "sex": "male" をsqlに適用
+
+
