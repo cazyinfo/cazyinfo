@@ -1,3 +1,4 @@
+#!
 import pandas as pd
 
 # CSVファイルを読み込む
