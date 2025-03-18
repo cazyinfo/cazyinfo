@@ -1,4 +1,7 @@
-#!
+#
+# export PYTHONIOENCODING=utf8  # これしないと文字化け
+# export LC_ALL="ja_JP.UTF-8"   # これも重要そう locale コマンドで確認
+
 import pandas as pd
 
 # CSVファイルを読み込む

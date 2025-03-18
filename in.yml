@@ -1,0 +1,13 @@
+# 先頭の-は配列の要素を表す。
+---
+- A: Network Getting Started First Playbook  # dict1個目
+  connection: network_cli
+  gather_facts: false
+  hosts: all
+  tasks: null
+- B: bbb  # dict2個目
+- C: ccc  # dict3個目
+
+- DDD
+- EEE
+- [FFF, GGG]
